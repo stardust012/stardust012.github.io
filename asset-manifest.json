@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://stardust012.github.io/static/css/main.cb9fc357.css",
+    "main.js": "https://stardust012.github.io/static/js/main.196b8ddc.js",
+    "index.html": "https://stardust012.github.io/index.html",
+    "main.cb9fc357.css.map": "https://stardust012.github.io/static/css/main.cb9fc357.css.map",
+    "main.196b8ddc.js.map": "https://stardust012.github.io/static/js/main.196b8ddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb9fc357.css",
+    "static/js/main.196b8ddc.js"
+  ]
+}
