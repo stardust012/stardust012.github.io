@@ -14,7 +14,7 @@ function App() {
       <Container fluid  className="d-flex flex-column min-vh-100">
         <Row>
           <Routes>
-            <Route path="/about-me" element={<AboutMe />} />
+            <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/commissions" element={<Commissions />} />
           </Routes>
