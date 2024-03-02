@@ -1,6 +1,6 @@
 import './styles/App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Portfolio from './pages/Portfolio';
 import Commissions from './pages/Commissions';
 import NavBar from './navigation/NavBar';
@@ -9,7 +9,7 @@ import AboutMe from './pages/AboutMe';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <NavBar />
       <Container fluid  className="d-flex flex-column min-vh-100">
         <Row>
@@ -20,7 +20,7 @@ function App() {
           </Routes>
         </Row>
       </Container>
-    </Router>
+    </HashRouter>
   );
 }
 
