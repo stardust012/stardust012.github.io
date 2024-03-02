@@ -7,7 +7,7 @@ function PortfolioItem({ item, includes }) {
       <li className="col-md-4 mb-3">
         <h3>{item.fields.title}</h3>
         <p>{item.fields.description}</p>
-        {image && ( // Check if image is found
+        {image && (
           <img
             src={image.fields.file.url}
             alt={item.fields.title}
@@ -19,7 +19,7 @@ function PortfolioItem({ item, includes }) {
   }
   
   function findImageInIncludes(imageId, includes) {
-    if (!includes || !includes.Asset) return null; // Early return if includes is missing
+    if (!includes || !includes.Asset) return null;
   
     const matchingAsset = includes.Asset.find(
       (asset) => asset.sys.id === imageId

@@ -9,7 +9,7 @@ const client = createClient({
 
 function Portfolio() {
     const [portfolioItems, setPortfolioItems] = useState([]);
-    const [includes, setIncludes] = useState({}); // Add state for includes data
+    const [includes, setIncludes] = useState({});
 
     useEffect(() => {
       const fetchData = async () => {
